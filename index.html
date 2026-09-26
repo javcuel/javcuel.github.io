@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javier Cueli Ruiz | UX & Game Designer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F8FAFC; 
+        }
+    </style>
+</head>
+<body class="antialiased text-slate-900 selection:bg-indigo-100 selection:text-indigo-900">
+
+    <!-- HERO SECTION -->
+    <header class="max-w-5xl mx-auto px-6 pt-24 pb-16">
+        <div class="max-w-4xl flex flex-col-reverse md:flex-row md:items-center gap-8 md:gap-12 mb-8">
+            <div class="flex-grow">
+                <h1 class="text-5xl md:text-6xl font-bold tracking-tight text-slate-900 mb-4">Javier Cueli Ruiz</h1>
+                <h2 class="text-2xl md:text-3xl font-medium text-slate-500">
+                    Computer Science Graduate & <span class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-600">UX/Game Designer</span>
+                </h2>
+            </div>
+            <!-- Tu foto de perfil -->
+            <img src="assets/foto.jpg" alt="Javier Cueli Ruiz" class="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover shadow-md border-4 border-white shrink-0 hover:scale-105 transition-transform duration-300 ease-out">
+        </div>
+        
+        <p class="text-lg md:text-xl leading-relaxed text-slate-600 mb-10 max-w-3xl">
+            I am focused on how interactive experiences can make learning more engaging. Backed by a strong foundation in computer science, I design and develop full-stack educational platforms and games, bridging the gap between intuitive interface design, game mechanics, and robust software architectures.
+        </p>
+
+        <!-- Botones con Iconos -->
+        <div class="flex flex-wrap gap-4">
+            <a href="mailto:jcueliruiz@gmail.com" class="inline-flex items-center justify-center gap-2 px-6 py-3 font-medium text-white bg-slate-900 rounded-lg hover:bg-slate-800 transition-colors shadow-sm">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                Contact Me
+            </a>
+            <a href="#" class="inline-flex items-center justify-center gap-2 px-6 py-3 font-medium text-slate-700 bg-white border border-slate-300 rounded-lg hover:bg-slate-50 hover:text-slate-900 transition-colors shadow-sm">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                Download CV
+            </a>
+        </div>
+    </header>
+
+    <!-- FEATURED PROJECTS -->
+    <section class="max-w-5xl mx-auto px-6 py-12">
+        <div class="flex items-center gap-4 mb-10">
+            <h3 class="text-sm font-bold uppercase tracking-wider text-slate-400">Selected Work</h3>
+            <div class="flex-grow h-px bg-slate-200"></div>
+        </div>
+
+        <!-- Proyecto 1: Gamispace -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 md:p-10 mb-8 hover:shadow-md transition-shadow duration-300 flex flex-col md:flex-row items-center gap-8 md:gap-12">
+            
+            <!-- Zona de texto (60% del espacio) -->
+            <div class="w-full md:w-3/5">
+                <div class="flex flex-wrap items-center gap-3 mb-3">
+                    <h4 class="text-2xl font-bold text-slate-900">Gamispace Platform</h4>
+                    <span class="px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-700 text-xs font-semibold">2025 - 2026</span>
+                </div>
+                <p class="text-sm text-slate-500 font-medium mb-6">Educational Platform Development</p>
+                <p class="text-slate-600 mb-4 leading-relaxed">
+                    An educational platform that uses videogames to help university students learn basic concepts across different subjects. I designed the platform's core dynamics, including the subject structure, ranking system, and features aimed at keeping users motivated.
+                </p>
+                <p class="text-slate-600 mb-8 leading-relaxed">
+                    Beyond the user experience, I architected and developed both the frontend interface and the robust backend infrastructure supporting the platform.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-semibold rounded-md">UX Design</span>
+                    <span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-semibold rounded-md">Frontend</span>
+                    <span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-semibold rounded-md">Backend</span>
+                    <span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-semibold rounded-md">Gamification</span>
+                </div>
+            </div>
+
+            <!-- Zona del Vídeo Gamispace (40% del espacio, escalado perfecto, aspecto natural) -->
+            <div class="w-full md:w-2/5 shrink-0 bg-slate-900 rounded-xl overflow-hidden shadow-sm border border-slate-200">
+                <video autoplay loop muted playsinline class="w-full h-auto block">
+                    <source src="assets/gamispace.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <!-- Proyecto 2: Serious Games -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 md:p-10 hover:shadow-md transition-shadow duration-300 flex flex-col md:flex-row items-center gap-8 md:gap-12">
+            
+            <!-- Zona de texto (60% del espacio) -->
+            <div class="w-full md:w-3/5">
+                <div class="flex flex-wrap items-center gap-3 mb-3">
+                    <h4 class="text-2xl font-bold text-slate-900">Serious Games for Programming</h4>
+                    <span class="px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-700 text-xs font-semibold">2025 - 2026</span>
+                </div>
+                <p class="text-sm text-slate-500 font-medium mb-6">University of Valladolid</p>
+                <p class="text-slate-600 mb-4 leading-relaxed">
+                    Worked with a research group to teach programming concepts that were previously taught through games struggling to keep students engaged. 
+                </p>
+                <p class="text-slate-600 mb-8 leading-relaxed">
+                    After analyzing the underlying problems of the existing solutions, I designed and developed two entirely new educational videogames from scratch, focusing on redesigning the mechanics to maintain student motivation throughout the learning process.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-semibold rounded-md">Game Design</span>
+                    <span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-semibold rounded-md">Game Development</span>
+                    <span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-semibold rounded-md">Player Psychology</span>
+                </div>
+            </div>
+
+            <!-- Zona del Vídeo Serious Games (40% del espacio, escalado perfecto, aspecto natural) -->
+            <div class="w-full md:w-2/5 shrink-0 bg-slate-900 rounded-xl overflow-hidden shadow-sm border border-slate-200">
+                <video autoplay loop muted playsinline class="w-full h-auto block">
+                    <source src="assets/juego.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- ENGINEERING PROFILE & TECH STACK (NUEVO) -->
+    <section class="max-w-5xl mx-auto px-6 py-12">
+        <div class="flex items-center gap-4 mb-10">
+            <h3 class="text-sm font-bold uppercase tracking-wider text-slate-400">Engineering Profile</h3>
+            <div class="flex-grow h-px bg-slate-200"></div>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Academic Record (Highlighted Card) -->
+            <div class="bg-slate-900 text-white p-8 rounded-2xl shadow-sm relative overflow-hidden flex flex-col justify-center">
+                <!-- Background decoration -->
+                <div class="absolute -right-16 -top-16 opacity-5 pointer-events-none">
+                    <svg width="250" height="250" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                </div>
+                
+                <div class="relative z-10">
+                    <h4 class="text-xs font-bold uppercase tracking-wider text-indigo-400 mb-6">Academic Excellence</h4>
+                    <h5 class="text-2xl font-bold text-white mb-1">Bachelor in Computer Science</h5>
+                    <p class="text-slate-400 font-medium text-sm mb-8">University of Valladolid (2022 - 2026)</p>
+                    
+                    <div class="flex items-center gap-5">
+                        <div class="bg-indigo-600 rounded-xl p-4 text-center min-w-[85px] shadow-sm border border-indigo-500 shrink-0">
+                            <span class="block text-3xl font-extrabold text-white leading-none">8.4</span>
+                            <span class="block text-[10px] font-bold text-indigo-200 uppercase mt-1.5 tracking-wider">Average</span>
+                        </div>
+                        <p class="text-sm text-slate-300 leading-relaxed">
+                            During my studies, I gained a deep understanding of core computer science concepts such as software engineering, data structures, and algorithms. Maintaining a consistently high academic performance allowed me to not only grasp these fundamentals but also apply them to build robust technical solutions for complex projects.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tech Stack (Tags) -->
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-6">Technical Arsenal</h4>
+                
+                <div class="space-y-6">
+                    <!-- Category 1 -->
+                    <div>
+                        <h5 class="text-sm font-semibold text-slate-900 mb-3 flex items-center gap-2">
+                            <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                            Programming Languages
+                        </h5>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1.5 bg-slate-50 border border-slate-200 text-slate-700 text-sm font-medium rounded-lg">C#</span>
+                            <span class="px-3 py-1.5 bg-slate-50 border border-slate-200 text-slate-700 text-sm font-medium rounded-lg">TypeScript</span>
+                            <span class="px-3 py-1.5 bg-slate-50 border border-slate-200 text-slate-700 text-sm font-medium rounded-lg">Java</span>
+                            <span class="px-3 py-1.5 bg-slate-50 border border-slate-200 text-slate-700 text-sm font-medium rounded-lg">Python</span>
+                            <span class="px-3 py-1.5 bg-slate-50 border border-slate-200 text-slate-700 text-sm font-medium rounded-lg">C</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Category 2 -->
+                    <div>
+                        <h5 class="text-sm font-semibold text-slate-900 mb-3 flex items-center gap-2">
+                            <svg class="w-4 h-4 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            Game Development
+                        </h5>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1.5 bg-indigo-50 border border-indigo-100 text-indigo-700 text-sm font-medium rounded-lg hover:bg-indigo-100 transition-colors">Unity 2D/3D</span>
+                            <span class="px-3 py-1.5 bg-indigo-50 border border-indigo-100 text-indigo-700 text-sm font-medium rounded-lg hover:bg-indigo-100 transition-colors">Game Design</span>
+                            <span class="px-3 py-1.5 bg-indigo-50 border border-indigo-100 text-indigo-700 text-sm font-medium rounded-lg hover:bg-indigo-100 transition-colors">Prototyping</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 3 -->
+                    <div>
+                        <h5 class="text-sm font-semibold text-slate-900 mb-3 flex items-center gap-2">
+                            <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path></svg>
+                            Web & Infrastructure
+                        </h5>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1.5 bg-slate-50 border border-slate-200 text-slate-700 text-sm font-medium rounded-lg">Node.js</span>
+                            <span class="px-3 py-1.5 bg-slate-50 border border-slate-200 text-slate-700 text-sm font-medium rounded-lg">React</span>
+                            <span class="px-3 py-1.5 bg-slate-50 border border-slate-200 text-slate-700 text-sm font-medium rounded-lg">Express</span>
+                            <span class="px-3 py-1.5 bg-slate-50 border border-slate-200 text-slate-700 text-sm font-medium rounded-lg">Docker</span>
+                            <span class="px-3 py-1.5 bg-slate-50 border border-slate-200 text-slate-700 text-sm font-medium rounded-lg">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- INTERNATIONAL & COMMUNITY (NUEVO) -->
+    <section class="max-w-5xl mx-auto px-6 py-12 mb-16">
+        <div class="flex items-center gap-4 mb-10">
+            <h3 class="text-sm font-bold uppercase tracking-wider text-slate-400">International & Community</h3>
+            <div class="flex-grow h-px bg-slate-200"></div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-100 p-6 md:p-10 hover:shadow-md transition-shadow duration-300 flex flex-col md:flex-row items-center gap-8 md:gap-12">
+            
+            <!-- Zona de texto (60%) -->
+            <div class="w-full md:w-3/5">
+                <div class="flex flex-wrap items-center gap-3 mb-3">
+                    <h4 class="text-2xl font-bold text-slate-900">BEST & Global Experience</h4>
+                    <span class="px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-700 text-xs font-semibold">2023 - 2026</span>
+                </div>
+                <p class="text-sm text-slate-500 font-medium mb-6">Multidisciplinary Collaboration & Erasmus+</p>
+                <p class="text-slate-600 mb-4 leading-relaxed">
+                    Through my active involvement in the Board of European Students of Technology (BEST), I have organized engineering competitions and job fairs while participating in international courses across Denmark, Portugal, and Estonia.
+                </p>
+                <p class="text-slate-600 mb-8 leading-relaxed">
+                    This experience, combined with my Erasmus+ exchange year at the University of Maribor in Slovenia, provided me with the opportunity to develop essential soft skills, adapt quickly to multicultural environments, and learn how to collaborate effectively in international, multidisciplinary teams.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-semibold rounded-md">English (C1 Advanced)</span>
+                    <span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-semibold rounded-md">Leadership</span>
+                    <span class="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-semibold rounded-md">Event Organization</span>
+                </div>
+            </div>
+
+            <!-- Zona de la foto (40%) -->
+            <div class="w-full md:w-2/5 shrink-0 bg-slate-100 rounded-xl overflow-hidden shadow-sm border border-slate-200 aspect-[4/3] relative flex items-center justify-center">
+                <!-- Para poner tu foto, sustituye todo este span por una etiqueta img como esta: -->
+                <img src="assets/best.jpeg" alt="BEST International Experience" class="w-full h-full object-cover absolute inset-0">
+                <span class="text-slate-400 text-sm font-medium text-center px-4">best.jpeg</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-white border-t border-slate-200 py-10 mt-12">
+        <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="text-slate-500 font-medium text-sm">© 2026 Javier Cueli.</p>
+            <div class="flex gap-6">
+    <a href="https://www.linkedin.com/in/javier-cueli/" class="text-slate-500 hover:text-indigo-600 text-sm font-semibold transition-colors">LinkedIn</a>
+    <a href="https://github.com/javcuel" class="text-slate-500 hover:text-indigo-600 text-sm font-semibold transition-colors">GitHub</a>
+    <a href="mailto:jcueliruiz@gmail.com" class="text-slate-500 hover:text-indigo-600 text-sm font-semibold transition-colors">Email</a>
+</div>
+        </div>
+    </footer>
+
+</body>
+</html>
